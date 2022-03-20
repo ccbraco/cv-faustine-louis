@@ -1,0 +1,307 @@
+body {
+  color: 8f947a;
+  text-align: center;
+  /* Utilisation de la police qu'on vient de définir sur les titres */
+  font-family: "Bitter", serif;
+  font-size: 0.9rem;
+  color: rgb(130, 131, 127);
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+a h3, a h1{
+  color: rgb(130, 131, 127);
+}
+a:hover,
+a:hover h3,
+a:hover h1,
+.formations a {
+  color: rgb(224, 138, 9);
+  text-decoration: none !important;
+}
+.card-text div {
+  padding-bottom: 3rem;
+}
+p a {
+  color: rgb(224, 138, 9);
+}
+p a:hover {
+  color: rgb(107, 68, 8);
+}
+
+.btn:hover {
+  color: green !important;
+}
+.footer-social .fa:hover,
+.social .fab:hover {
+  color: rgba(120, 226, 94, 0.705) !important;
+  text-decoration: none;
+}
+.team h4,
+.team p,
+.blanc a {
+  color: white;
+}
+.navbar-nav li {
+  padding-left: 3rem;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+  color: rgb(226, 137, 21) !important;
+}
+.btn {
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(226, 137, 21) !important;
+}
+.accordion .btn {
+  color: rgb(226, 137, 21) !important;
+  background-color: rgb(0, 0, 0, 0) !important;
+}
+
+.btn {
+  color: white;
+}
+
+[class*="primary"] {
+  background-color: rgb(230, 140, 5) !important;
+}
+[class*="secondary"] {
+  background-color: rgb(96, 244, 153) !important;
+}
+
+.news {
+  background-color: rgba(243, 237, 237, 0.726);
+}
+.article-news {
+  background-color: white;
+}
+.tiret-centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tiret {
+  background-color: #8f947a;
+  width: 20px;
+  height: 2px;
+}
+.barre {
+  background-color: rgb(212, 212, 209);
+  max-width: 100%;
+}
+.social .fab,
+.blanc .fab {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 1.3rem;
+}
+/*  --------------------    TITRE ------------------------------ */
+.titre {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(234, 236, 230, 0.7),
+      rgba(247, 248, 245, 0.7)
+    ),
+    url("images/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+}
+.mep-titre {
+  max-width: 750px;
+}
+.carousel-control-next, .carousel-control-prev{
+  color: #242222;
+}
+.carousel{
+  max-width: 1200px;
+  height: auto;
+}
+.carousel-indicators{
+  position: relative;
+  color:rgb(130, 131, 127);
+}
+.carousel-indicators li{
+  background-color:  rgb(211, 209, 206);
+}
+.carousel-indicators .active{
+  background-color:  rgb(226, 137, 21) !important;
+}
+/*  --------------------    FIN TITRE ------------------------------ */
+.support,
+.card-body,
+.titre-partners,
+.mention {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(138, 139, 131);
+}
+.card-body i{
+  padding-bottom: 0.8rem;
+  font-size: 1.5rem;
+}
+.card-body img{
+  margin: 0.5rem;
+}
+.cefim {
+  text-align: left;
+}
+.titre-partners {
+  padding: 5rem;
+}
+.partners {
+  padding-bottom: 4rem;
+}
+h4 {
+  font-size: 1rem;
+  color: rgb(64, 65, 62);
+}
+.mention {
+  font-size: 0.7rem;
+  color: rgb(180, 180, 177);
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+.blanc {
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.team {
+  background-image: linear-gradient(
+      rgba(96, 107, 71, 0.7),
+      rgba(110, 119, 89, 0.7)
+    ),
+    url(img/team-img.jpg);
+  background-position: center;
+}
+
+.shop {
+  background-image: linear-gradient(
+      rgba(219, 138, 16, 0.7),
+      rgba(214, 147, 21, 0.7)
+    ),
+    url(img/parallax-img1.jpg);
+  background-position: center;
+  height: 500px;
+}
+.learn {
+  background-color: rgb(45, 46, 44);
+  color: white;
+}
+.contact {
+  background-color: rgb(45, 46, 44);
+  padding: 1rem;
+  font-size: 1rem;
+}
+.portraits img,
+.card-img {
+  border-radius: 50%;
+  border: white solid;
+}
+.btn-link {
+  background-color: 0;
+}
+video {
+  width: 70%;
+  height: auto;
+}
+.why img {
+  width: 60%;
+  height: auto;
+  border-radius: 50%;
+}
+.why p {
+  color: rgb(160, 161, 156);
+}
+
+.card {
+  border: 0;
+}
+.competences {
+  align-items: flex-start;
+}
+.competences li {
+  list-style-type: none;
+}
+.portraits p {
+  color: white;
+  font-size: 0.8em;
+}
+
+/*
+.font {
+    color: #8F947A;
+    padding-bottom: 2rem;
+    padding-top:2rem;
+    font-size: 1.5rem;
+}*/
+.acquis li {
+  padding-bottom: 1rem;
+}
+.fa-check-square,
+.fa-square-o {
+  font-size: 0.8rem !important;
+}
+.card-body .fa {
+  font-size: 1.5rem;
+}
+.cadre-blanc {
+  background-color: white;
+  border-top: #8f947a solid;
+}
+.entete {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.footer-social {
+  padding-top: 2em;
+  padding-bottom: 5rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  padding: 0;
+}
+.projetsCefim{
+  display: flex;
+  flex-wrap: wrap
+}
+.img-projet{
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  margin:0;
+  padding:0
+}
+.italic{
+  font-style: italic
+}
+span{
+  font-weight:bold 
+}
