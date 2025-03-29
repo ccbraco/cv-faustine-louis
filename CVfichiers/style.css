@@ -3,8 +3,8 @@ body {
   text-align: center;
   /* Utilisation de la police qu'on vient de définir sur les titres */
   font-family: "Bitter", serif;
-  font-size: 0.9rem;
-  color: rgb(130, 131, 127);
+  font-size: 1rem;
+  color: rgb(114, 114, 112);
   width: 100%;
 }
 h1,
@@ -13,7 +13,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+ /*font-family: "Montserrat", sans-serif;*/
+ font-family: "Avenir Next LT W01 Bold",sans-serif;
   font-weight: bolder;
 }
 a h3, a h1{
@@ -108,8 +109,66 @@ p a:hover {
   padding-left: 1.3rem;
 }
 /*  --------------------    TITRE ------------------------------ */
+
+/* button  */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #b67326;
+  box-sizing: border-box;
+  color: #2c1a00;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #f6e4d5;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #f6ab6d;
+}
+
+@media (min-width: 600px) {
+  .button-51 {
+    padding: 16px 35px;
+  }
+}
+.fa-linkedin {
+  color: #01080c;
+  font-size: 2.2rem !important;
+}
+
+.logo img {
+  width: 17%;
+  height: auto;
+}
 .titre {
-  height: 450px;
+  height: 230px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -228,13 +287,14 @@ video {
   width: 70%;
   height: auto;
 }
+
 .why img {
   width: 60%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 70%;
 }
 .why p {
-  color: rgb(160, 161, 156);
+  color: rgb(120, 121, 119);
 }
 
 .card {
