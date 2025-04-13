@@ -291,7 +291,8 @@ video {
 .why img {
   width: 60%;
   height: auto;
-  border-radius: 70%;
+  
+ /* border-radius: 90%;*/
 }
 .why p {
   color: rgb(120, 121, 119);
@@ -364,4 +365,13 @@ ul {
 }
 span{
   font-weight:bold 
+}
+/**  --------------------    transmission ------------------------------ */
+.secnum {
+  font-size: 1.7rem;
+  color: rgb(221, 112, 10);
+}
+.module {
+  font-size: 1rem;
+  color: rgb(221, 112, 10);
 }
